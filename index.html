@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <!--
+    　ﾟ　,　　　,　。　.　　　＋　　ﾟ　　　。　　。ﾟ　.　ﾟ。,　☆　*　。ﾟ.　o.ﾟ　　。　.　。
+    。　.　　．。　　　　o　　　．.　。　ﾟ　 ﾟ　,　。.　o　。*　。　.　o．　。　．　.
+    　　　　　　　　。　　　.　　　。　　．　.ﾟo　。　*．　。　．.　☆　.　＋.　.　　.
+    　。　.　　．　.　　　.　　　．　　。　ﾟ。,　☆　ﾟ.　＋　。　ﾟ　,。　.　。　　,　.。
+    　　　　ﾟ　　。　　　ﾟ　　.　　+。　ﾟ　*　。.　,　。ﾟ　+.　。*。　ﾟ.　　　.　.　．　　.
+    　。　　.　　　.　。　。ﾟ.　。*　。,　´。.　　☆。。.　ﾟ。+　。　.。　　.　　｡　　　.
+    　　.　　　。　　ﾟ　ﾟ。　。,　.。o　☆　+　,ﾟ。　*。.　。　。　.　　　　。　　　　.
+    　ﾟ　.ﾟ　ﾟ　　。ﾟ　+　。.　+。　*　。ﾟ。ﾟ.,　,+　。ﾟ.　。　.　.　　　,　　　　,　　　.
+    ﾟ。ﾟ+ﾟ`,　o。。.ﾟ*。ﾟ　。.ﾟ　。　☆＋。。ﾟ.　°　。　.　　　,　　　　　　ﾟ　　　　ﾟ
+    　。,　.ﾟ。　+　☆。,ﾟ.　o。 。+　。ﾟ.,　　.　ﾟ　　　,　　　。　　　　　。　　　.　　　.
+    　ﾟ.　ｏ　*　。ﾟ。ﾟ.。ﾟ。+ﾟ　。　。　ﾟ。 ﾟ　。　　ﾟ
+    ﾟ`　.ﾟ　.ﾟ.　ﾟ.　.　ﾟ　　.　　ﾟ　　.　　　,　　.　　　　　.　　.　　　。　　　　　　ﾟ　.
+    -->
+    <title>New Tab</title>
+    <link href='assets/css/style.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="JavaScript:newPopup('https://monitoring.bbc.co.uk/login');">BBC Monitoring</a>
+      </li>
+      <li>
+        <a href="JavaScript:newPopup('https://play.pocketcasts.com/web/');">Pocket Casts</a>
+      </li>
+      <li>
+        <a href="JavaScript:newPopup('http://youtube.com/');">youtube</a>
+      </li>
+      <li>
+        <a href="JavaScript:newPopup('http://github.com/');">github</a>
+      </li>
+      <li>
+        <a href="JavaScript:newPopup('https://www.bbc.co.uk/radio/player/bbc_radio_fourfm');">BBC Radio 4</a>
+      </li>
+	  <li>
+        <a href="JavaScript:newPopup('https://www.facebook.com/messages');">Facebook Messenger</a>
+      </li>
+	  <li>
+        <a href="JavaScript:newPopup('https://web.whatsapp.com/');">Whatsapp</a>
+      </li>
+    </ul>
+  </body>
+</html>
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=300,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
